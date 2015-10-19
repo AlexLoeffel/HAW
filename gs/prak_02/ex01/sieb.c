@@ -30,7 +30,7 @@ void calc_prim_arr(){
 	
 	// -- CALCULATION --
 	for (i=0;i<endi;i++){
-	//	printf("%i ",i);
+	//	printf("%i ",i);		// müsste hier nicht anstatt %i ein %d für dezimal sein? ansonstne sieht sieb.c gut aus
 		if (prim_arr[i]==1) {
 			for (j=i+i;j<ANZ;j=j+i) {
 				prim_arr[j]=0;
